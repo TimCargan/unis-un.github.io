@@ -95,10 +95,8 @@ header{
  }
 
 header .column { 
-  display: table-cell;
   margin-bottom: 15px;
   padding: 0px; 
-  width: 33%;
 }
  
 /* Nav bar */
@@ -107,7 +105,6 @@ nav {
   padding: 20px;
   font-size: 16px;
   padding-bottom: 0; 
-  position: absolute;
   color: white;
 }
 nav a{
@@ -131,7 +128,7 @@ nav ul {
   padding: 0;
   list-style: none;
   position: relative;
-  display: inline-table;
+  margin-top: 0;
 }
 
 nav ul:after {
@@ -173,6 +170,13 @@ nav ul ul ul {
   top:0;
 }
 
+#nav-left{
+  float: left;
+}
+
+#nav-right {
+  float:right;
+}
 /* Logo and Title */
 
 #main_logo {
@@ -237,7 +241,6 @@ nav ul ul ul {
 }
 
 header .wrap {
-  display: table;
   max-width: 800px;
   margin: 0 auto;
 }
